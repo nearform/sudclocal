@@ -5,7 +5,7 @@
   "containerDefinitions": [
     {
       "name": "Machine",
-      "type": "virtualbox",
+      "type": "blank-container",
       "specific": {
         "repositoryToken": "04551b154404a852e663aba4c3fa299e04f6e8a5"
       },
@@ -14,7 +14,7 @@
     {
       "id": "cb865e5a6a572cab7f3f37570afd472686988971189b0255358afa9693902cd6",
       "name": "web",
-      "type": "boot2docker",
+      "type": "docker",
       "specific": {
         "repositoryUrl": "git@github.com:pelger/startupdeathclock.git",
         "buildScript": "buildweb.sh",
@@ -29,7 +29,7 @@
     {
       "id": "5fb44faa481a7eb5c6b01ff25d8a230c21ce0f92a2f7935963e2bef3563deb63",
       "name": "hist-srv",
-      "type": "boot2docker",
+      "type": "docker",
       "specific": {
         "repositoryUrl": "git@github.com:pelger/startupdeathclock.git",
         "buildScript": "buildhist.sh",
@@ -44,7 +44,7 @@
     {
       "id": "86acea6af8d8a90ab2a7a9f051ca48030afff32c04f245af9ca7cf2537af74f7",
       "name": "real-srv",
-      "type": "boot2docker",
+      "type": "docker",
       "specific": {
         "repositoryUrl": "git@github.com:pelger/startupdeathclock.git",
         "buildScript": "buildreal.sh",
@@ -59,7 +59,7 @@
     {
       "id": "f1b6157b2ea50d83e110928cd4de5e0548d85238128cad6466ad544d655aa152",
       "name": "doc-srv",
-      "type": "boot2docker",
+      "type": "docker",
       "specific": {
         "repositoryUrl": "git@github.com:pelger/startupdeathclock.git",
         "buildScript": "builddoc.sh",
@@ -84,7 +84,7 @@
           "f904fc4a-4581-4ed9-97cd-5aadf35caa06",
           "ed5f0529-7810-4016-a469-f5b2499f8092"
         ],
-        "type": "virtualbox",
+        "type": "blank-container",
         "specific": {
           "ipaddress": "localhost"
         },
@@ -93,7 +93,7 @@
       },
       "738fabad-806c-43a7-9e04-09ae7325811e": {
         "id": "738fabad-806c-43a7-9e04-09ae7325811e",
-        "type": "boot2docker",
+        "type": "docker",
         "containerDefinitionId": "f1b6157b2ea50d83e110928cd4de5e0548d85238128cad6466ad544d655aa152",
         "containedBy": "10",
         "contains": [],
@@ -107,7 +107,7 @@
       },
       "ed5f0529-7810-4016-a469-f5b2499f8092": {
         "id": "ed5f0529-7810-4016-a469-f5b2499f8092",
-        "type": "boot2docker",
+        "type": "docker",
         "containerDefinitionId": "86acea6af8d8a90ab2a7a9f051ca48030afff32c04f245af9ca7cf2537af74f7",
         "containedBy": "10",
         "contains": [],
@@ -121,7 +121,7 @@
       },
       "f904fc4a-4581-4ed9-97cd-5aadf35caa06": {
         "id": "f904fc4a-4581-4ed9-97cd-5aadf35caa06",
-        "type": "boot2docker",
+        "type": "docker",
         "containerDefinitionId": "5fb44faa481a7eb5c6b01ff25d8a230c21ce0f92a2f7935963e2bef3563deb63",
         "containedBy": "10",
         "contains": [],
@@ -135,7 +135,7 @@
       },
       "a8602f4d-16ff-4dfa-a6d7-3ed79662d50f": {
         "id": "a8602f4d-16ff-4dfa-a6d7-3ed79662d50f",
-        "type": "boot2docker",
+        "type": "docker",
         "containerDefinitionId": "cb865e5a6a572cab7f3f37570afd472686988971189b0255358afa9693902cd6",
         "containedBy": "10",
         "contains": [],
