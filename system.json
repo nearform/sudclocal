@@ -64,10 +64,10 @@
         "repositoryUrl": "git@github.com:pelger/startupdeathclock.git",
         "buildScript": "builddoc.sh",
         "arguments": "-p 9002:9002 -d __TARGETNAME__ /usr/bin/node /srv/doc-srv",
-        "buildHead": 30,
-        "binary": "/usr/local/var/nscale/data/build/local/builds/doc-srv-29",
+        "buildHead": 31,
+        "binary": "/Users/pelger/.nscale/data/build/sudc/builds/doc-srv-30",
         "imageTag": "doc-srv-24:latest",
-        "dockerImageId": "de69783a26096413c82486c2587c01435468c53133c8e22c2bc04d0434604412"
+        "dockerImageId": "34090228afa4fb46a08ea056c579d2bf6fdaf4cf2bb44cf0cfd6c7b36e373721"
       },
       "version": "0.0.0"
     }
@@ -80,7 +80,7 @@
         "nativeId": "10",
         "contains": [
           "a8602f4d-16ff-4dfa-a6d7-3ed79662d50f",
-          "738fabad-806c-43a7-9e04-09ae7325811e",
+          "c5e0f623-675a-4899-952d-fa6744985e82",
           "f904fc4a-4581-4ed9-97cd-5aadf35caa06",
           "ed5f0529-7810-4016-a469-f5b2499f8092"
         ],
@@ -90,20 +90,6 @@
         },
         "containerDefinitionId": "85d99b2c-06d0-5485-9501-4d4ed429799c",
         "containedBy": "10"
-      },
-      "738fabad-806c-43a7-9e04-09ae7325811e": {
-        "id": "738fabad-806c-43a7-9e04-09ae7325811e",
-        "type": "docker",
-        "containerDefinitionId": "f1b6157b2ea50d83e110928cd4de5e0548d85238128cad6466ad544d655aa152",
-        "containedBy": "10",
-        "contains": [],
-        "specific": {
-          "dockerImageId": "de69783a26096413c82486c2587c01435468c53133c8e22c2bc04d0434604412",
-          "containerBinary": "/usr/local/var/nscale/data/build/local/builds/doc-srv-29",
-          "dockerLocalTag": "local/doc-srv-29",
-          "buildNumber": 29,
-          "version": "0.0.0"
-        }
       },
       "ed5f0529-7810-4016-a469-f5b2499f8092": {
         "id": "ed5f0529-7810-4016-a469-f5b2499f8092",
@@ -144,6 +130,20 @@
           "containerBinary": "/usr/local/var/nscale/data/build/local/builds/web-223",
           "dockerLocalTag": "local/web-223",
           "buildNumber": 223,
+          "version": "0.0.0"
+        }
+      },
+      "c5e0f623-675a-4899-952d-fa6744985e82": {
+        "id": "c5e0f623-675a-4899-952d-fa6744985e82",
+        "type": "docker",
+        "containerDefinitionId": "f1b6157b2ea50d83e110928cd4de5e0548d85238128cad6466ad544d655aa152",
+        "containedBy": "10",
+        "contains": [],
+        "specific": {
+          "dockerImageId": "34090228afa4fb46a08ea056c579d2bf6fdaf4cf2bb44cf0cfd6c7b36e373721",
+          "containerBinary": "/Users/pelger/.nscale/data/build/sudc/builds/doc-srv-30",
+          "dockerLocalTag": "sudc/doc-srv-30",
+          "buildNumber": 30,
           "version": "0.0.0"
         }
       }
