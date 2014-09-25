@@ -34,10 +34,10 @@
         "repositoryUrl": "git@github.com:pelger/startupdeathclock.git",
         "buildScript": "buildhist.sh",
         "arguments": "-p 9000:9000 -d __TARGETNAME__ /usr/bin/node /srv/hist-srv",
-        "buildHead": 198,
-        "binary": "/usr/local/var/nscale/data/build/local/builds/hist-srv-197",
+        "buildHead": 199,
+        "binary": "/Users/pelger/.nscale/data/build/sudc/builds/hist-srv-198",
         "imageTag": "hist-srv-191:latest",
-        "dockerImageId": "2c6d8c77b3d8e505366516682624e6e2bb71f0eecd2b6a819564eb23471b4430"
+        "dockerImageId": "8728cb79adad7ca9add3745480efb311de37fe058f3f311aa92c193bc9ed8a86"
       },
       "version": "0.0.0"
     },
@@ -81,7 +81,7 @@
         "contains": [
           "a8602f4d-16ff-4dfa-a6d7-3ed79662d50f",
           "49d7ec2c-deec-4209-a3cf-fcbbbee6b128",
-          "f904fc4a-4581-4ed9-97cd-5aadf35caa06",
+          "bd47aa5b-92ae-41d4-a6c8-2c239082f3f4",
           "b5b97964-fe14-4918-b227-37683b48e436"
         ],
         "type": "blank-container",
@@ -90,20 +90,6 @@
         },
         "containerDefinitionId": "85d99b2c-06d0-5485-9501-4d4ed429799c",
         "containedBy": "10"
-      },
-      "f904fc4a-4581-4ed9-97cd-5aadf35caa06": {
-        "id": "f904fc4a-4581-4ed9-97cd-5aadf35caa06",
-        "type": "docker",
-        "containerDefinitionId": "5fb44faa481a7eb5c6b01ff25d8a230c21ce0f92a2f7935963e2bef3563deb63",
-        "containedBy": "10",
-        "contains": [],
-        "specific": {
-          "dockerImageId": "2c6d8c77b3d8e505366516682624e6e2bb71f0eecd2b6a819564eb23471b4430",
-          "containerBinary": "/usr/local/var/nscale/data/build/local/builds/hist-srv-197",
-          "dockerLocalTag": "local/hist-srv-197",
-          "buildNumber": 197,
-          "version": "0.0.0"
-        }
       },
       "a8602f4d-16ff-4dfa-a6d7-3ed79662d50f": {
         "id": "a8602f4d-16ff-4dfa-a6d7-3ed79662d50f",
@@ -144,6 +130,20 @@
           "containerBinary": "/Users/pelger/.nscale/data/build/sudc/builds/real-srv-48",
           "dockerLocalTag": "sudc/real-srv-48",
           "buildNumber": 48,
+          "version": "0.0.0"
+        }
+      },
+      "bd47aa5b-92ae-41d4-a6c8-2c239082f3f4": {
+        "id": "bd47aa5b-92ae-41d4-a6c8-2c239082f3f4",
+        "type": "docker",
+        "containerDefinitionId": "5fb44faa481a7eb5c6b01ff25d8a230c21ce0f92a2f7935963e2bef3563deb63",
+        "containedBy": "10",
+        "contains": [],
+        "specific": {
+          "dockerImageId": "8728cb79adad7ca9add3745480efb311de37fe058f3f311aa92c193bc9ed8a86",
+          "containerBinary": "/Users/pelger/.nscale/data/build/sudc/builds/hist-srv-198",
+          "dockerLocalTag": "sudc/hist-srv-198",
+          "buildNumber": 198,
           "version": "0.0.0"
         }
       }
