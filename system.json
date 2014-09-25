@@ -64,10 +64,10 @@
         "repositoryUrl": "git@github.com:pelger/startupdeathclock.git",
         "buildScript": "builddoc.sh",
         "arguments": "-p 9002:9002 -d __TARGETNAME__ /usr/bin/node /srv/doc-srv",
-        "buildHead": 31,
-        "binary": "/Users/pelger/.nscale/data/build/sudc/builds/doc-srv-30",
+        "buildHead": 32,
+        "binary": "/Users/pelger/.nscale/data/build/sudc/builds/doc-srv-31",
         "imageTag": "doc-srv-24:latest",
-        "dockerImageId": "34090228afa4fb46a08ea056c579d2bf6fdaf4cf2bb44cf0cfd6c7b36e373721"
+        "dockerImageId": "80db600da4163761d5afc1a5de141de9f20d2975b5b93317717b97f1072b8521"
       },
       "version": "0.0.0"
     }
@@ -80,7 +80,7 @@
         "nativeId": "10",
         "contains": [
           "a8602f4d-16ff-4dfa-a6d7-3ed79662d50f",
-          "c5e0f623-675a-4899-952d-fa6744985e82",
+          "49d7ec2c-deec-4209-a3cf-fcbbbee6b128",
           "f904fc4a-4581-4ed9-97cd-5aadf35caa06",
           "ed5f0529-7810-4016-a469-f5b2499f8092"
         ],
@@ -133,17 +133,17 @@
           "version": "0.0.0"
         }
       },
-      "c5e0f623-675a-4899-952d-fa6744985e82": {
-        "id": "c5e0f623-675a-4899-952d-fa6744985e82",
+      "49d7ec2c-deec-4209-a3cf-fcbbbee6b128": {
+        "id": "49d7ec2c-deec-4209-a3cf-fcbbbee6b128",
         "type": "docker",
         "containerDefinitionId": "f1b6157b2ea50d83e110928cd4de5e0548d85238128cad6466ad544d655aa152",
         "containedBy": "10",
         "contains": [],
         "specific": {
-          "dockerImageId": "34090228afa4fb46a08ea056c579d2bf6fdaf4cf2bb44cf0cfd6c7b36e373721",
-          "containerBinary": "/Users/pelger/.nscale/data/build/sudc/builds/doc-srv-30",
-          "dockerLocalTag": "sudc/doc-srv-30",
-          "buildNumber": 30,
+          "dockerImageId": "80db600da4163761d5afc1a5de141de9f20d2975b5b93317717b97f1072b8521",
+          "containerBinary": "/Users/pelger/.nscale/data/build/sudc/builds/doc-srv-31",
+          "dockerLocalTag": "sudc/doc-srv-31",
+          "buildNumber": 31,
           "version": "0.0.0"
         }
       }
